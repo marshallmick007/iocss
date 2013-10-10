@@ -1,0 +1,61 @@
+body.dyntype {
+  font: -apple-system-body;
+}
+
+h1.dyntype { 
+  font: -apple-system-headline;
+}
+
+h2.dyntype, 
+h3.dyntype,
+h4.dyntype,
+h5.dyntype,
+h6.dyntype {
+   font: -apple-system-subheadline;
+}
+
+.caption.dyntype {
+  font: -apple-system-caption1;
+}
+
+.caption2.dyntype {
+  font: -apple-system-caption2;
+}
+
+.footnote.dyntype {
+  font: -apple-system-footnote;
+}
+
+body.dyntype.short {
+  font: -apple-system-short-body;
+}
+
+h1.dyntype.short { 
+  font: -apple-system-short-headline;
+}
+
+h2.dyntype.short, 
+h3.dyntype.short,
+h4.dyntype.short,
+h5.dyntype.short,
+h6.dyntype.short {
+   font: -apple-system-short-subheadline;
+}
+
+.caption.dyntype.short {
+  font: -apple-system-short-caption1;
+}
+
+.caption2.dyntype.short {
+  font: -apple-system-caption1;
+}
+
+.footnote.dyntype.short {
+  font: -apple-system-short-footnote;
+}
+
+hr.hairline {
+  /* 1px hairline, using SVG (background-size property not required) */
+  background: repeat-x bottom left
+  url(&quot;data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1&#39; height=&#39;1&#39;&gt;&lt;rect fill=&#39;#ff0000&#39; x=&#39;0&#39; y=&#39;0&#39; width=&#39;1&#39; height=&#39;0.5&#39;/&gt;&lt;/svg&gt;&quot;);
+}
