@@ -59,3 +59,9 @@ hr.hairline {
   background: repeat-x bottom left
   url(&quot;data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1&#39; height=&#39;1&#39;&gt;&lt;rect fill=&#39;#ff0000&#39; x=&#39;0&#39; y=&#39;0&#39; width=&#39;1&#39; height=&#39;0.5&#39;/&gt;&lt;/svg&gt;&quot;);
 }
+
+.sticky { position: -webkit-sticky;   top: 10px; }
+
+
+
+
